@@ -1,9 +1,12 @@
-a=int(input("Enter the value"))
-if(a>0):
-  for i in range(2,a):
-    if(a%i==0):
-      print("Not a prime number")
+n=int(input("Enter the value"))
+if(n<=1000):
+  if(n>0):
+    for i in range(2,n):
+      if(n%i==0):
+        print("No")
+    else:
+      print("Yes")
   else:
-    print("Prime number")
+    print("No")
 else:
-  print("Not a prime number")
+  print("Invalid")
