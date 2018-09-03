@@ -9,4 +9,4 @@ if(n<=1000):
   else:
     print("No")
 else:
-  print("Invalid")
+  print("No")
