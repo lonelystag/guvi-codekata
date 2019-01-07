@@ -1,4 +1,6 @@
 N=int(input())
+print("Input:")
+print(N)
 if N<=100000:
   sum = 0
   temp = N
