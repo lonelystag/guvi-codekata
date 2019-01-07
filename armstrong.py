@@ -6,6 +6,7 @@ if N<=100000:
    digit = temp % 10
    sum += digit ** 3
    temp //= 10
+  print('Output:')
   if N == sum:
     print("Yes")
   else:
