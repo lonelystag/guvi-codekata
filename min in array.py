@@ -1,6 +1,10 @@
 a=[]
 n=int(input())
-for i in range(0,n):
-	b=int(input())
-	a.append(b)
+
+b=input().split()
+
+for i in b:
+	a.append(int(i))
+	
+	
 print(min(a))
