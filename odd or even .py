@@ -1,8 +1,8 @@
 #program to find a number is odd or even
-a=int(input("Give input"))
+a=int(input(""))
 if(a%2==0):
-  print("even")
+  print("Even")
 elif(a<0):
-  print("Invalid")
+  print("invalid")
 else:
   print("odd")
