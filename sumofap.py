@@ -1,6 +1,7 @@
-a=int(input())
-d=int(input())
-n=int(input())
+v=input().split()
+n=int(v[0])
+d=int(v[1])
+a=int(v[2])
 def sumofAP( a, d,n) : 
     sum = 0
     i = 0
