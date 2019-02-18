@@ -1,0 +1,12 @@
+a=int(input())
+d=int(input())
+n=int(input())
+def sumofAP( a, d,n) : 
+    sum = 0
+    i = 0
+    while i < n : 
+        sum = sum + a 
+        a = a + d 
+        i = i + 1
+    return sum
+print (sumofAP(a, d, n))
