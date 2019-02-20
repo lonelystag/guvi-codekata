@@ -12,7 +12,7 @@ if a>a1:
   print("%d %d"%(e1,e2))
 if a==a1:
   print(0)
-else:
+if a<a1:
   f1=b1-b
   f2=c1-c
   print("%d %d"%(f1,f2))
