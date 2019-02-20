@@ -1,4 +1,4 @@
-n=int(input("Enter the value"))
+n=int(input())
 if(n<=1000):
   if(n>0):
     for i in range(2,n):
