@@ -1,11 +1,11 @@
-n=int(input())
-temp=n
-rev=0
-while(n>0 and n<=1000):
-    dig=n%10
-    rev=rev*10+dig
-    n=n//10
-if(temp==rev):
-    print("yes")
+#this for set2
+num = int(input())
+temp = num
+rev = 0
+while temp != 0:
+	rev = (rev * 10) + (temp % 10)
+	temp = temp//10
+if num == rev:
+	print("yes")
 else:
-    print("no")
+	print("no")
