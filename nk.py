@@ -1,9 +1,9 @@
 sum=0
 a=[]
-n=int(input("Enter the number of elements in array"))
-k=int(input("How many elements do u want to sum"))
+n=int(input())
+k=int(input())
 for i in range(0,n):
-  m=input("enter the value of array")
+  m=input()
   a.append(m)
 print(a)
 for j in range(0,k,1):
