@@ -1,5 +1,8 @@
-n=int(input("Enter the lower limit:"))
-q=int(input("Enter the upper limit:"))
-for i in range(n,q+1):
+a=input().split()
+b=int(a[0])
+c=int(a[1])
+list=[]
+for i in range(b+1,c):
     if(i%2==0):
-        print(i)
+    	list.append(i)
+print(" ".join(map(str,list)))
