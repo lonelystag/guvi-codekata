@@ -1,2 +1,2 @@
-a = input("Please enter in a full name: ")
+a = input()
 print(len(a) - a.count(' '))
