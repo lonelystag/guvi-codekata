@@ -1,2 +1,2 @@
-a=input("Enter the value ")
+a=input()
 print(a.count(' '))
