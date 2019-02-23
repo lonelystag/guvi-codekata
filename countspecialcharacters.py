@@ -7,4 +7,5 @@ for i in range(len(string)):
     digits = digits + 1
   else:
     special = special + 1
-print("", special)
+ans=special-1
+print('',ans)
